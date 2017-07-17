@@ -1,0 +1,50 @@
+{
+  "name": "Simple World",
+  "world" : {
+    "nodes": [
+      {
+        "label": "A",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "label": "B",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "label": "C",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "label": "D",
+        "x": 0,
+        "y": 1
+      }
+    ],
+    "edges": [
+
+      {
+        "label": "AD",
+        "node1": "A",
+        "node2": "D"
+      },
+      {
+        "label": "AB",
+        "node1": "A",
+        "node2": "B"
+      },
+      {
+        "label": "BC",
+        "node1": "B",
+        "node2": "C"
+      },
+      {
+        "label": "CD",
+        "node1": "C",
+        "node2": "D"
+      }
+    ]
+  }
+}

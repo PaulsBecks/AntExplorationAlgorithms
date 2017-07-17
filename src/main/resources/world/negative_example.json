@@ -1,0 +1,190 @@
+{
+  "name": "Simple World",
+  "world" : {
+    "nodes": [
+      {
+        "label": "A",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "label": "B",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "label": "C",
+        "x": 2,
+        "y": 0
+      },
+      {
+        "label": "D",
+        "x": 1,
+        "y": 1
+      },
+      {
+        "label": "E",
+        "x": 3,
+        "y": 0
+      },
+      {
+        "label": "F",
+        "x": 4,
+        "y": 0
+      },
+      {
+        "label": "G",
+        "x": 5,
+        "y": 0
+      },
+      {
+        "label": "H",
+        "x": 4,
+        "y": 1
+      },
+      {
+        "label": "I",
+        "x": 6,
+        "y": 0
+      },
+      {
+        "label": "J",
+        "x": 7,
+        "y": 0
+      },
+      {
+        "label": "K",
+        "x": 8,
+        "y": 0
+      },
+      {
+        "label": "L",
+        "x": 7,
+        "y": 1
+      },
+      {
+        "label": "M",
+        "x": 9,
+        "y": 0
+      },
+      {
+        "label": "N",
+        "x": 10,
+        "y": 0
+      },
+      {
+        "label": "O",
+        "x": 11,
+        "y": 0
+      },
+      {
+        "label": "P",
+        "x": 10,
+        "y": 1
+      }
+    ],
+    "edges": [
+
+      {
+        "label": "AB",
+        "node1": "A",
+        "node2": "B"
+      },
+      {
+        "label": "BC",
+        "node1": "B",
+        "node2": "C"
+      },
+      {
+        "label": "BD",
+        "node1": "D",
+        "node2": "B"
+      },
+
+      {
+        "label": "CD",
+        "node1": "D",
+        "node2": "C"
+      },
+
+      {
+        "label": "CE",
+        "node1": "C",
+        "node2": "E"
+      },
+      {
+        "label": "EF",
+        "node1": "E",
+        "node2": "F"
+      },
+      {
+        "label": "FG",
+        "node1": "F",
+        "node2": "G"
+      },
+
+      {
+        "label": "FH",
+        "node1": "F",
+        "node2": "H"
+      },
+      {
+        "label": "GH",
+        "node1": "H",
+        "node2": "G"
+      },
+      {
+        "label": "GI",
+        "node1": "G",
+        "node2": "I"
+      },
+      {
+        "label": "IJ",
+        "node1": "I",
+        "node2": "J"
+      },
+      {
+        "label": "JK",
+        "node1": "J",
+        "node2": "K"
+      },
+      {
+        "label": "JL",
+        "node1": "J",
+        "node2": "L"
+      },
+      {
+        "label": "KL",
+        "node1": "K",
+        "node2": "L"
+      },
+
+      {
+        "label": "KM",
+        "node1": "K",
+        "node2": "M"
+      },
+      {
+        "label": "NM",
+        "node1": "N",
+        "node2": "M"
+      },
+      {
+        "label": "NO",
+        "node1": "N",
+        "node2": "O"
+      },
+      {
+        "label": "NP",
+        "node1": "N",
+        "node2": "P"
+      },
+      {
+        "label": "OP",
+        "node1": "O",
+        "node2": "P"
+      }
+
+    ]
+  }
+}
